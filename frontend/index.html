@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Personal Psychologist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>AI Personal Psychologist</h1>
+            <p class="subtitle">
+                A supportive, research prototype for emotional check-ins and gentle coping suggestions.
+            </p>
+        </header>
+
+        <div class="disclaimer">
+            <strong>Important:</strong> This tool is not a substitute for professional care, crisis services, or medical advice.
+        </div>
+
+        <main class="chat-container">
+            <div id="chat-window" class="chat-window">
+                <!-- Messages will be appended here dynamically -->
+            </div>
+
+            <form id="chat-form" class="chat-form">
+                <textarea
+                    id="user-input"
+                    class="chat-input"
+                    rows="3"
+                    placeholder="Type how you are feeling or what is on your mind..."
+                    required
+                ></textarea>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p>
+                This is an academic M.Tech prototype. It does not provide diagnosis and should not be used as a replacement for therapy or emergency support.
+            </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
